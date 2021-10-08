@@ -1,0 +1,9 @@
+{
+    "event_id": "criteria_template_data",
+    "execute_order": 10,
+    "callback_class": "ThemeHouse\\UserNameColor\\Listener\\CriteriaTemplateData",
+    "callback_method": "criteriaTemplateData",
+    "active": true,
+    "hint": "",
+    "description": ""
+}

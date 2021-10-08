@@ -1,0 +1,52 @@
+<xf:title>
+	<xf:if is="$style.isInsert()">
+		{{ phrase('th_unco_add_user_name_style') }}
+		<xf:else />
+		{{ phrase('th_unco_edit_user_name_style:') }} {$style.title}
+	</xf:if>
+</xf:title>
+
+<xf:form action="{{ link('th-unco/save', $style) }}"
+		 class="block">
+	<div class="block-container">
+		<h2 class="block-tabHeader tabs hScroller" data-xf-init="h-scroller tabs" role="tablist">
+			<span class="hScroller-scroll">
+				<a class="tabs-tab is-active" role="tab" tabindex="0" aria-controls="user-name-style-options">
+					{{ phrase('th_unco_user_name_style_options') }}
+				</a>
+				<xf:macro template="helper_criteria" name="user_tabs"
+						  arg-userTabTitle="{{ phrase('th_unco_available_if...') }}" />
+			</span>
+		</h2>
+
+		<ul class="block-body tabPanes">
+			<li class="is-active" role="tabpanel" id="user-name-style-option">
+				<xf:textboxrow name="title" label="{{ phrase('title') }}"
+							   value="{{ $style.isInsert() ? '' : $style.MasterTitle.phrase_text }}" />
+				
+				<xf:numberboxrow min="0" step="1" name="display_order"
+								 value="{$style.display_order}"
+								 label="{{ phrase('display_order') }}" />
+
+				<xf:checkboxrow>
+					<xf:option value="1" name="active"
+							   selected="{$style.active}">{{ phrase('enabled') }}</xf:option>
+				</xf:checkboxrow>
+
+				<hr class="formRowSep" />
+
+				<xf:codeeditorrow name="styling"
+								  label="{{ phrase('th_unco_styling') }}"
+								  mode="css"
+								  explain="{{ phrase('you_may_use_xenforo_template_syntax_here') }}"
+								  value="{$style.styling}" />
+			</li>
+
+			<xf:macro template="helper_criteria" name="user_panes"
+					  arg-criteria="{{ $userCriteria.getCriteriaForTemplate() }}"
+					  arg-data="{{ $userCriteria.getExtraTemplateData() }}" />
+		</ul>
+
+		<xf:submitrow icon="save" />
+	</div>
+</xf:form>

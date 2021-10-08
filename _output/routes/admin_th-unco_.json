@@ -1,0 +1,11 @@
+{
+    "route_type": "admin",
+    "route_prefix": "th-unco",
+    "sub_name": "",
+    "format": ":int<user_name_style_id,title>",
+    "build_class": "",
+    "build_method": "",
+    "controller": "ThemeHouse\\UserNameColor:UserNameStyle",
+    "context": "th_unco_styles",
+    "action_prefix": ""
+}

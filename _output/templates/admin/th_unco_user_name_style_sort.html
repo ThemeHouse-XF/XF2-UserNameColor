@@ -1,0 +1,22 @@
+<xf:title>{{ phrase('th_unco_sort_user_name_styles') }}</xf:title>
+
+<xf:macro template="public:nestable_macros" name="setup" />
+
+<xf:form action="{{ link('th-unco/sort') }}" class="block" ajax="true">
+	<div class="block-container">
+		<div class="block-body">
+			<div class="nestable-container" data-xf-init="nestable" data-parent-id="">
+				<ol class="nestable-list">
+					<xf:foreach loop="$styles" value="$style" i="$i">
+						<li class="nestable-item" data-id="{$style.user_name_style_id}">
+							<div class="nestable-handle" aria-label="{{ phrase('drag_handle') }}"><i class="fa fa-bars" aria-hidden="true"></i></div>
+							<div class="nestable-content">{$style.title}</div>
+						</li>
+					</xf:foreach>
+				</ol>
+				<xf:hiddenval name="styles" value="" />
+			</div>
+			<xf:submitrow icon="save" rowtype="simple" />
+		</div>
+	</div>
+</xf:form>

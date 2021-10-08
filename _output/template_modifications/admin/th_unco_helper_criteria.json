@@ -1,0 +1,9 @@
+{
+    "template": "helper_criteria",
+    "description": "Add user name color criteria",
+    "execution_order": 9,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:user:after_content]-->",
+    "replace": "$0\n\n<xf:include template=\"th_unco_user_name_color_criteria\" />"
+}

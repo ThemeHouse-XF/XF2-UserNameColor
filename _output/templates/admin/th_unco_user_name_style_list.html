@@ -1,0 +1,53 @@
+<xf:title>
+	{{ phrase('th_unco_user_name_styles') }}
+</xf:title>
+
+<xf:pageaction>
+	<div class="buttonGroup">
+		<xf:button icon="add" href="{{ link('th-unco/add') }}">
+			{{ phrase('th_unco_add_style') }}
+		</xf:button>
+		<xf:button icon="sort" href="{{ link('th-unco/sort') }}">
+			{{ phrase('button.sort') }}
+		</xf:button>
+	</div>
+</xf:pageaction>
+
+<xf:form action="{{ link('th-unco/toggle') }}" class="block" ajax="true">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:if is="$styles is not empty">
+				<xf:datalist>
+					<xf:foreach loop="$styles" value="$style">
+						<xf:set var="$titleHtml">
+							<span class="th-unco-user-name-style-{$style.user_name_style_id}">
+								<span>{$style.title}</span>
+							</span>
+						</xf:set>
+						<xf:datarow>
+							<xf:main label="{$titleHtml|raw}"
+									 href="{{ link('th-unco/edit', $style) }}" />
+
+							<xf:toggle name="active[{$style.user_name_style_id}]" selected="$style.active"
+									   submit="true"
+									   tooltip="{{ phrase('enable_disable_x', {'title': $style.title}) }}" />
+
+							<xf:delete icon="delete"
+									   href="{{ link('th-unco/delete', $style) }}" />
+
+
+						</xf:datarow>
+					</xf:foreach>
+				</xf:datalist>
+				<xf:else />
+				<div class="block-row">
+					{{ phrase('th_unco_no_styles_have_been_created_yet') }}
+				</div>
+			</xf:if>
+		</div>
+	</div>
+</xf:form>
+
+<xf:if is="$styles is not empty">
+	<xf:css src="public:th_unco_user_name_style_cache.less" />
+</xf:if>

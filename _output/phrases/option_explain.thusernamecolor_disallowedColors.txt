@@ -1,0 +1,1 @@
+Hexadecimal colors without leading # and named colors only. Color ranges are supported. Enter one item per line.

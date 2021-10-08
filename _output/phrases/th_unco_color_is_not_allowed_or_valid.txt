@@ -1,0 +1,1 @@
+Custom name color is not allowed or invalid.

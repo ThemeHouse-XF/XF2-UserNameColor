@@ -1,0 +1,33 @@
+<xf:macro name="selector"
+		  arg-user="!"
+		  arg-styles="{{ [] }}">
+	<xf:if is="$user.hasPermission('th_unco', 'use')">
+		<xf:radiorow name="th_unco_style_id" label="{{ phrase('th_unco_user_name_styling') }}"
+					 value="{{ $user.th_unco_user_name_data.style ? $user.th_unco_user_name_data.style : ($user.th_unco_user_name_data.color ? -1 : 0) }}">
+			<xf:option value="0">
+				<span class="th-unco-preview">
+					{{ phrase('th_unco_default_none') }}
+				</span>
+			</xf:option>
+			<xf:foreach loop="$styles" value="$style">
+				<xf:option value="{$style.user_name_style_id}">
+					<span class="th-unco-preview th-unco-user-name-style-{$style.user_name_style_id}">
+						<span>{$style.title}</span>
+					</span>
+				</xf:option>
+			</xf:foreach>
+
+			<xf:if is="$user.hasPermission('th_unco', 'useCustom')">
+				<xf:option value="-1" label="{{ phrase('th_unco_custom_color:') }}">
+					<xf:macro name="color_picker"
+							  template="color_picker_macros"
+							  arg-value="{$user.th_unco_user_name_data.color}"
+							  arg-name="th_unco_custom_color"
+							  arg-row="{{ false }}" />
+				</xf:option>
+			</xf:if>
+		</xf:radiorow>
+	</xf:if>
+
+	<xf:css src="th_unco_user_name_style_cache.less" />
+</xf:macro>

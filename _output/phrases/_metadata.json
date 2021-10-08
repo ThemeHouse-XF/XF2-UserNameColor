@@ -1,0 +1,224 @@
+{
+    "admin_navigation.th_unco_styles.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8b0d949e63d19906b7a19f8a18629df8"
+    },
+    "cron_entry.th_unco_regular_check.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "e81c5f45dead0e60f311fa5b253fbd8f"
+    },
+    "option.thusernamecolor_disallowedColors.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f9afbafbe21b05b19451dc4e61c4beb8"
+    },
+    "option_explain.thusernamecolor_disallowedColors.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "4e1101246924734034014463301812f7"
+    },
+    "option_group.thusernamecolor.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "aaae2aedf528f116b48d46b8c74cdfde"
+    },
+    "option_group_description.thusernamecolor.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "7841072c8d4a9feb770baeb53e626f77"
+    },
+    "permission.th_unco_bypassCustomColorRestrict.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d3ca5cb5a0f62417f87f14322eebc446"
+    },
+    "permission.th_unco_use.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8da7fa33d39f358c91dce556cce8f99f"
+    },
+    "permission.th_unco_useCustom.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "4b848ed554973727274720abef36797a"
+    },
+    "permission_interface.th_unco.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "4ac3fbf7bafe28e43a7231f74de6369c"
+    },
+    "th_unco_add_style.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "e8ced493938225f1dd71ea059ab9119e"
+    },
+    "th_unco_add_user_name_style.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "0d0cb2930a19bf1529b166c124959770"
+    },
+    "th_unco_available_if.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "87bc91f9137e46f544adfcf9b4f4e86c"
+    },
+    "th_unco_color_is_not_allowed_or_valid.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "cbbecb58358bd96d66e69a1967b0041a"
+    },
+    "th_unco_custom_color.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "0b3e5b731a0b9f0904f31b76626c423d"
+    },
+    "th_unco_custom_name_color_blue_value_at_least_x.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4c5555f4e50e4a9200e87b4dff4777d2"
+    },
+    "th_unco_custom_name_color_blue_value_no_more_than_x.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d1666c1e20d2aecace3c6c397bd3f046"
+    },
+    "th_unco_custom_name_color_green_value_at_least_x.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "8ad5367831e1dc94338bc8388755f36c"
+    },
+    "th_unco_custom_name_color_green_value_no_more_than_x.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "0aed011f515853aeb25c2ebaea02c4c0"
+    },
+    "th_unco_custom_name_color_red_value_at_least_x.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "bc635eb965318465266edee58114d71b"
+    },
+    "th_unco_custom_name_color_red_value_no_more_than_x.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "b6259b3ca0c9de20a7090e25d096d0ee"
+    },
+    "th_unco_custom_name_style_invalid.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c7e1a6e71321364c768e815879b40ce8"
+    },
+    "th_unco_default_none.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "91952a15c5d3b2d66000bcd4b82bcc00"
+    },
+    "th_unco_edit_user_name_style.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d84f2672c40d4f5a5a199311b802341d"
+    },
+    "th_unco_no_styles_have_been_created_yet.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f60df4044f310262756d46859640cae6"
+    },
+    "th_unco_sort_user_name_styles.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "bc0bf26b1a4eb4f7a506b31f7003be5d"
+    },
+    "th_unco_styling.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "be34f05f837d8dba4134095129ee3c06"
+    },
+    "th_unco_user_has_color_preset.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "56d193e61a91cf0d0fbe22940e577773"
+    },
+    "th_unco_user_has_custom_color.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "a100d1e45b7ec461a528a6d9a95142c5"
+    },
+    "th_unco_user_has_no_user_name_color.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "20b260e6ea7aa328f00c86ed1d2727c8"
+    },
+    "th_unco_user_has_user_name_color.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "5e5dc19065f99e7f8f05234b8d7849ef"
+    },
+    "th_unco_user_name_color.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ae9bf5d08dd4eb15b992bb5002387ce4"
+    },
+    "th_unco_user_name_color_style_not_one_of.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ab4e64d6f5620677e97234b9a2bf48a8"
+    },
+    "th_unco_user_name_color_style_one_of.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "5b8ecd108ff6fd53c016b5bf2bf3e44f"
+    },
+    "th_unco_user_name_style_options.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "07909b7bcd5ab41b2596b30de3545cd4"
+    },
+    "th_unco_user_name_styles.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "0b57eb127f4c72cf526e27a5a62e254f"
+    },
+    "th_unco_user_name_styling.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "05236500d5e1258265283c3dbba4b72f"
+    }
+}

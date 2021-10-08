@@ -1,0 +1,9 @@
+{
+    "template": "account_details",
+    "description": "Add user name style select",
+    "execution_order": 15,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "#\\s+<xf:formrow.*label=\"\\{\\{ phrase\\('email'\\) \\}\\}\">#sU",
+    "replace": "\t\t\t<xf:macro template=\"th_unco_macros\"\n\t\t\t\t\t  name=\"selector\"\n\t\t\t\t\t  arg-user=\"{$xf.visitor}\"\n\t\t\t\t\t  arg-styles=\"{$thUncoUserNameStyles}\" />\n\n$0"
+}
